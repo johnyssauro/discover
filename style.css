@@ -42,6 +42,7 @@ body {
 body {
   /* shortcut/atalho */
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -209,4 +210,18 @@ footer a{
   font-weight: 1200;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+}
+
+/* media querry (consulta de mídia: que tipo de mídia o usuário utiliza?) */
+/* qual o tamanho da tela do dispositivo?*/
+
+@media (min-width: 700px) {
+
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
