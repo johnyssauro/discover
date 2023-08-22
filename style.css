@@ -134,13 +134,21 @@ body * {
   right: var(--icon-right);
   left: var(--icon-left);
   
-  
+  animation: slide-back 0.4s forwards;
 
   
   /* absoluto: posicionamento em relação a alguma área da página. Página
   inteira é default. Parte da página é relative  */
   position:absolute;
   z-index: 0;
+}
+
+.light #switch button{
+  animation: slide-in 0.4s forwards;
+}
+
+#switch button:hover{
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
@@ -225,3 +233,27 @@ footer a{
     --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
+
+/* animação para switch button */
+
+@keyframes slide-in{
+
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back{
+
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+/* talvez adicionar um efeito roll */
