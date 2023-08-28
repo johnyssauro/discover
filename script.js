@@ -19,12 +19,12 @@ function toggleMode() {
     if (html.classList.contains("light")) {
 
         img.setAttribute("src", "./assets/avatar-light.png");
-        img.setAttribute("alt", "Pessoa sorrindo de óculos - fundo azul")
+        img.setAttribute("alt", "Imagem Mayk Brito");
         
     } else {
 
         img.setAttribute("src", "./assets/avatar.png");
-        img.setAttribute("alt", "Pessoa sorrindo - fundo amarelo");
+        img.setAttribute("alt", "Imagem Mayk Brito");
     }
 
 }

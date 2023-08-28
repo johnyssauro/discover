@@ -69,6 +69,7 @@ body * {
 
 #profile img {
   width: 112px;
+  border-radius: 100%;
 }
 
 #profile p {
@@ -135,6 +136,7 @@ body * {
   left: var(--icon-left);
   
   animation: slide-back 0.4s forwards;
+
 
   
   /* absoluto: posicionamento em relação a alguma área da página. Página
@@ -211,7 +213,7 @@ footer {
   text-align: center;
 }
 
-footer a{
+footer a {
 
   text-decoration: none;
 
@@ -257,3 +259,4 @@ footer a{
 }
 
 /* talvez adicionar um efeito roll */
+

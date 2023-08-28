@@ -48,6 +48,15 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 
 Esse projeto está sob a licença MIT.
 
+## 👨‍🎓 Aluno: João Dutra
+
+Links das minhas redes sociais e e-mail a seguir. Você também pode acessá-los através da minha página desse projeto.
+
+Instagram: https://www.instagram.com/noronha_dutra.j/
+LinkedIn: https://www.linkedin.com/in/jo%C3%A3o-dutra-b1434b263/
+Github: https://github.com/johnyssauro
+E-mail: joaopedronoronhadutra@gmail.com
+
 ---
 
 Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
